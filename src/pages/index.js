@@ -11,6 +11,8 @@ import UsefulFeatures from 'sections/useful-features';
 import Widgets from 'sections/widgets';
 import Pricing from 'sections/pricing';
 import Faq from 'sections/faq';
+import Hagrid from "components/hagrid";
+
 
 export default function IndexPage() {
   return (
@@ -25,7 +27,9 @@ export default function IndexPage() {
         <Widgets />
         <Pricing />
         <Faq />
+        <Hagrid />
       </Layout>
     </ThemeProvider>
   );
 }
+

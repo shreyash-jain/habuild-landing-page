@@ -1,11 +1,11 @@
-import React from 'react';
-import Head from 'next/head';
+import React from "react";
+import Head from "next/head";
 
 export default function SEO({
-  description = 'startup landing descriptions',
-  author = 'RedQ, Inc',
+  description = "startup landing descriptions",
+  author = "RedQ, Inc",
   meta,
-  title = 'startup landing title',
+  title = "startup landing title",
 }) {
   const metaData = [
     {
@@ -43,6 +43,15 @@ export default function SEO({
   ].concat(meta);
   return (
     <Head>
+      <script type="text/javascript">
+        {" "}
+        window.HAGRID_WEBSITE_ID = "eclbjy";
+      </script>
+      <script
+        async
+        type="text/javascript"
+        src="https://static.hgrd.app/build/main.js"
+      ></script>
       <title>{title}</title>
       {metaData.map(({ name, content }, i) => (
         <meta key={i} name={name} content={content} />

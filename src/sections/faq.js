@@ -51,8 +51,7 @@ export default function Faq() {
     <Box as="section" id="faq" variant="section.faq">
       <Container>
         <SectionHeader
-          title="Do you have any quesiton"
-          description="Our support team ready to help you, please contact with them"
+          title="General FAQs"
         />
         <Box
           sx={{
