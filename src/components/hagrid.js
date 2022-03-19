@@ -16,6 +16,7 @@ export default function Hagrid() {
       const script = document.createElement("script");
       script.type = "application/javascript";
       script.id = "hagrid-config-script";
+      
       script.innerHTML = 'window.HAGRID_WEBSITE_ID = "eclbjy";';
       document.body.appendChild(script);
 
