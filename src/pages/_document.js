@@ -10,20 +10,10 @@ class CustomDocument extends Document {
     return (
       <Html lang="en-US">
         <Head>
-          <script type="text/javascript">
-            {" "}
-            window.HAGRID_WEBSITE_ID = "eclbjy";
-          </script>
-          <script
-            async
-            type="text/javascript"
-            src="https://static.hgrd.app/build/main.js"
-          ></script>
         </Head>
         <body>
           <Main />
           <NextScript />
-        
         </body>
       </Html>
     );
