@@ -18,6 +18,8 @@ export default function Hagrid() {
       script.id = "hagrid-config-script";
       script.innerHTML = "window.HAGRID_WEBSITE_ID = eclbjy";
       document.body.appendChild(script);
+
+      
       const checkIfHagridScriptExists =
         document.getElementById("hagrid-script");
       if (checkIfHagridScriptExists) {
