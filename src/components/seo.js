@@ -43,15 +43,6 @@ export default function SEO({
   ].concat(meta);
   return (
     <Head>
-      <script type="text/javascript">
-        {" "}
-        window.HAGRID_WEBSITE_ID = "eclbjy";
-      </script>
-      <script
-        async
-        type="text/javascript"
-        src="https://static.hgrd.app/build/main.js"
-      ></script>
       <title>{title}</title>
       {metaData.map(({ name, content }, i) => (
         <meta key={i} name={name} content={content} />
